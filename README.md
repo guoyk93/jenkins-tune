@@ -11,7 +11,7 @@ Disable jenkins signature verification for `update-center.json`
 * Edit `/etc/init.d/jenkins` or other start-up script, append `JAVA_OPTS`
 
 ```
--javaagent:/path/to/elasticsearch-tune-1.0.jar`
+-javaagent:/path/to/jenkins-tune-1.0.jar`
 ```
 
 # Blog (CN)
